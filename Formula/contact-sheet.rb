@@ -7,23 +7,23 @@ class ContactSheet < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/msetkowski/contact-sheet/releases/download/v0.7.0/contact-sheet-v0.7.0-aarch64-apple-darwin.tar.gz"
-      sha256 "860ae9e37e86b4be811774ab2e15db445bacde52132f26755f8cb60c7819369f"
+      url "https://github.com/msetkowski/contact-sheet/releases/download/v0.7.1/contact-sheet-v0.7.1-aarch64-apple-darwin.tar.gz"
+      sha256 "efbb5836934e8c952f083ad6f28d2a545607b73987db0c5a825e0c5860dbadc2"
     end
     on_intel do
-      url "https://github.com/msetkowski/contact-sheet/releases/download/v0.7.0/contact-sheet-v0.7.0-x86_64-apple-darwin.tar.gz"
-      sha256 "da1ec0d6145b37b11a931990be0fa7159a27b4108d0f6c58ab7cb6daaac80a34"
+      url "https://github.com/msetkowski/contact-sheet/releases/download/v0.7.1/contact-sheet-v0.7.1-x86_64-apple-darwin.tar.gz"
+      sha256 "b417364fe51f1ceb9e95a0df59a36e73ad07470bf5ddbccac2bb0cf7e31e2c72"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/msetkowski/contact-sheet/releases/download/v0.7.0/contact-sheet-v0.7.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "28c78ab30f4d4b5b370686bc9772e298236c57cd1f5507acce9d0f07e1ce4da1"
+      url "https://github.com/msetkowski/contact-sheet/releases/download/v0.7.1/contact-sheet-v0.7.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "403276f0a965a2c09229b70dcd433c215bbcd9f9dcdc65b3012bd009312d2667"
     end
     on_intel do
-      url "https://github.com/msetkowski/contact-sheet/releases/download/v0.7.0/contact-sheet-v0.7.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "31238b425edce7e6d3fe207c80fc8dd981331b773319adc1caffbb8600d0d45e"
+      url "https://github.com/msetkowski/contact-sheet/releases/download/v0.7.1/contact-sheet-v0.7.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "6da96763bdb3d715d75f6650cc5f5842e3faa841ce0dc6d3c2cc5235be5f0f11"
     end
   end
 
